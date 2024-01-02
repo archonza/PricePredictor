@@ -12,4 +12,4 @@ RUN apt update \
     && pip3 install pandas \
     && pip3 install scikit-learn \
     && git config --global user.email "rudolferasmus@gmail.com" \
-    && git git config --global user.name "rudolferasmus"
+    && git config --global user.name "rudolferasmus"
