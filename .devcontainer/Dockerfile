@@ -9,4 +9,7 @@ RUN apt update \
     && useradd -m -s /usr/bin/bash ${USER} \
     && echo "${USER} ALL=(ALL) NOPASSWD: ALL" >/etc/sudoers.d/${USER} \
     && chmod 0440 /etc/sudoers.d/${USER} \
-    && pip3 install pandas
+    && pip3 install pandas \
+    && pip3 install scikit-learn \
+    && git config --global user.email "rudolferasmus@gmail.com" \
+    && git git config --global user.name "rudolferasmus"
